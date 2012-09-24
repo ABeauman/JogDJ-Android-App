@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jog DJ</string>
+    
+    <string name="start_btn_txt">Start Button</string>
+    
+    <string name="training">Plan</string>
+    <string name="song_explorer">Songs</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    
+    <string name="training_long">Training Plan</string>
+    <string name="song_explorer_long">Song Explorer</string>
+    
+    <string name="distance_dummy"> 0</string>
+    <string name="speed_dummy"> 0</string>
+   
+    <string name="pref_key_speed_calculation_method">Speed_calculation_method</string>
+    <string name="pref_key_distance_unit">distance_unit</string>
+    <string name="pref_key_distance_trigger">distance_trigger</string>
+    <string name="pref_key_time_trigger">time_trigger</string>
+    
+    <string name="time">Time (mins)</string>
+    <string name="distance_km">Distance (km)</string>
+    <string name="distance_m">Distance (m)</string>
+    
+    <string name="warmup">Warm Up</string>
+    <string name="mainrun">Main Run</string>
+    <string name="cooldown">Cool Down</string>
+    
+    <string name="empty"></string>
+    
+    <string name="how_title">How does it work?</string>
+    <string name="how_content">Jog DJ scans your library of music and calculates the beats per minute (BPM). Depending on how fast you run, it plays the right track to accompany your run. That\'s it, almost like magic!</string>
+    
+    <string name="options_title">What else can you do?</string>
+    <string name="options_content">If you are training for a run, you can take advantage of the training plan feature. Access it and set your warm-up, main run and cool-down phase. An audio cue will announce which stage you are in and tell you to speed up or slow down allowing you to foucs on your run.</string>
+    <string name="options_two">Alternatively you can use audio cues that inform you about your distance, time and pace via the Settings icon. The different triggers allow you to choose to be informed by distance or time or both.</string>
+    
+    <string name="dev_title">Using the development mode</string>
+    <string name="dev_content">This section is entirely for the purpose of testing this app and would be removed for commercial use. When debugging is enabled in Settings, the music controls are hardwired to do something else than they were originally meant to. The forward and rewind controls allow you to speed up and slow down giving you the option to test the algorithm without leaving your desk.</string>
+    
+    <string name="set_btn">Set</string>
+    <string name="cancel_btn">Cancel</string>
+    
+    <string name="audio_cues">Audio Cues</string>
+    <string name="time_trigger">Time Trigger</string>
+    <string name="distance_trigger">Distance Trigger</string>
+    
+    <string name="units">Units Preference</string>
+    <string name="km">Kilometers</string>
+    <string name="miles">Miles</string>
+    
+    <string name="debug">Development Mode</string>
+    <string name="debug_content">Enable Development Functionality</string>
+    
+    <string name="time0">None</string>
+    <string name="time1">1 Minute</string>
+    <string name="time2">2 Minutes</string>
+    <string name="time3">3 Minutes</string>
+    <string name="time4">4 Minutes</string>
+    <string name="time5">5 Minutes</string>
+    
+    <string name="mile0">None</string>
+    <string name="mile1">0.25 Miles</string>
+    <string name="mile2">0.5 Miles</string>
+    <string name="mile3">0.75 Miles</string>
+    <string name="mile4">1 Mile</string>
+    
+    <string name="km0">None</string>
+    <string name="km1">0.25 Kilometers</string>
+    <string name="km2">0.5 Kilometers</string>
+    <string name="km3">0.75 Kilometers</string>
+    <string name="km4">1 Kilometer</string>
+    
+</resources>

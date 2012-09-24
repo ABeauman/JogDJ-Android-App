@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp" >
+   
+   <TableRow android:paddingBottom="10dp">
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:text="@string/time" />
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"/>
+    
+    <TextView
+        android:id="@+id/distance_text_view"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:text="@string/distance_km" />
+    </TableRow>
+
+    <TableRow android:paddingBottom="20dp">
+        <Button
+            android:id="@+id/warmUpButtonTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:background="@drawable/plan_button" />
+        <TextView
+            android:id="@+id/warmup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/warmup" />
+
+        <Button
+            android:id="@+id/warmUpButtonDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plan_button" />
+
+    </TableRow>
+    
+    <TableRow>
+    
+    <View
+		 android:layout_width="fill_parent"
+		 android:paddingLeft="10dp"
+		 android:paddingRight="10dp"
+		 android:gravity="center"
+		 android:layout_height="1dp"
+		 android:background="#fbae17" />
+    
+    <View
+		 android:layout_width="fill_parent"
+		 android:paddingLeft="10dp"
+		 android:paddingRight="10dp"
+		 android:gravity="center"
+		 android:layout_height="1dp"
+		 android:background="#fbae17" />
+    
+    <View
+		 android:layout_width="fill_parent"
+		 android:paddingLeft="10dp"
+		 android:paddingRight="10dp"
+		 android:gravity="center"
+		 android:layout_height="1dp"
+		 android:background="#fbae17" />
+
+    </TableRow>
+
+    <TableRow android:paddingTop="20dp"
+        	  android:paddingBottom="20dp">
+        <Button
+            android:id="@+id/mainRunButtonTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plan_button"/>
+
+        <TextView
+            android:id="@+id/mainrun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mainrun"/>
+
+        <Button
+            android:id="@+id/mainRunButtonDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plan_button" />
+
+    </TableRow>
+    
+    <TableRow>
+    
+    <View
+		 android:layout_width="fill_parent"
+		 android:paddingLeft="10dp"
+		 android:paddingRight="10dp"
+		 android:gravity="center"
+		 android:layout_height="1dp"
+		 android:background="#fbae17" />
+    
+    <View
+		 android:layout_width="fill_parent"
+		 android:paddingLeft="10dp"
+		 android:paddingRight="10dp"
+		 android:gravity="center"
+		 android:layout_height="1dp"
+		 android:background="#fbae17" />
+    
+    <View
+		 android:layout_width="fill_parent"
+		 android:paddingLeft="10dp"
+		 android:paddingRight="10dp"
+		 android:gravity="center"
+		 android:layout_height="1dp"
+		 android:background="#fbae17" />
+
+    </TableRow>
+    
+
+    <TableRow android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/coolDownButtonTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plan_button" />
+
+        <TextView
+            android:id="@+id/cooldown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/cooldown" />
+
+        <Button
+            android:id="@+id/coolDownButtonDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plan_button" />
+    </TableRow>
+        
+    </TableLayout>

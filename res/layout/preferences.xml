@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/units"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_bar"
+        android:paddingLeft="5dp"
+        android:text="@string/units"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+ 	<RadioGroup android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:paddingBottom="10dp">
+        		
+	    <RadioButton
+		        android:id="@+id/km_radio"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="16dp"
+		        android:text="@string/km" 
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    
+		    <View
+		        android:id="@+id/divider1"
+				 android:layout_width="fill_parent"
+				 android:layout_height="1dp"
+				 android:background="#4c4b47"/>
+		    
+		    <RadioButton
+		        android:id="@+id/m_radio"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/miles" 
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</RadioGroup>
+	
+    <TextView
+        android:id="@+id/audiocues"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_bar"
+        android:paddingLeft="5dp"
+        android:text="@string/audio_cues"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/timetrigger"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time_trigger"
+        android:gravity="left"
+        android:padding="10dp"
+        android:background="@android:color/transparent"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <View
+        android:id="@+id/divider2"
+		 android:layout_width="fill_parent"
+		 android:layout_height="1dp"
+		 android:background="#4c4b47" />
+
+    <Button
+        android:id="@+id/distancetrigger"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/distance_trigger"
+        android:gravity="left"
+        android:padding="10dp"
+        android:background="@android:color/transparent"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     <TextView
+        android:id="@+id/debug"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_bar"
+        android:paddingLeft="5dp"
+        android:text="@string/debug"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <CheckBox
+         android:id="@+id/debug_enabled"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/debug_content"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

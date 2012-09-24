@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/background_dialog" >
+
+    <RadioGroup  android:id="@+id/trigger_radio_group"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content">
+        		
+    <RadioButton
+        android:id="@+id/mile0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mile0" />
+    
+    <View
+		 android:layout_width="fill_parent"
+		 android:layout_height="1dp"
+		 android:background="#4c4b47"/>
+    
+    <RadioButton
+        android:id="@+id/mile1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mile1" />
+    
+    <View
+		 android:layout_width="fill_parent"
+		 android:layout_height="1dp"
+		 android:background="#4c4b47"/>
+    
+    <RadioButton
+        android:id="@+id/mile2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mile2" />
+    
+    <View
+		 android:layout_width="fill_parent"
+		 android:layout_height="1dp"
+		 android:background="#4c4b47"/>
+    
+    <RadioButton
+        android:id="@+id/mile3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mile3" />
+    
+    <View
+		 android:layout_width="fill_parent"
+		 android:layout_height="1dp"
+		 android:background="#4c4b47"/>
+    
+    <RadioButton
+        android:id="@+id/mile4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mile4" />
+    
+    </RadioGroup>
+    
+   	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="24dp" 
+        android:background="@drawable/actionbar" >
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/cancel_btn" />
+        
+        <View
+		 android:layout_width="1dp"
+		 android:paddingLeft="10dp"
+		 android:paddingRight="15dp"
+		 android:gravity="center"
+		 android:layout_height="fill_parent"
+		 android:background="#fbae17" />
+        
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/set_btn" />
+
+    </LinearLayout>
+
+</LinearLayout>

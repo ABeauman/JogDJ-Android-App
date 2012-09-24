@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/howtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_bar"
+        android:paddingLeft="10dp"
+        android:text="@string/how_title"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/howcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/how_content"
+        android:padding="10dp"
+        android:drawableTop="@drawable/song_tab"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+    <TextView
+        android:id="@+id/optionstitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_bar"
+        android:paddingLeft="10dp"
+        android:text="@string/options_title"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/optionscontent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/options_content"
+        android:padding="10dp"
+        android:drawableTop="@drawable/training_tab"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <View
+        android:id="@+id/divider2"
+		 android:layout_width="fill_parent"
+		 android:layout_height="1dp"
+		 android:background="#4c4b47" />
+    
+     <TextView
+        android:id="@+id/optionstwo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/options_two"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/devtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_bar"
+        android:paddingLeft="10dp"
+        android:text="@string/dev_title"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/devcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dev_content"
+        android:padding="10dp"
+        android:drawableTop="@drawable/training_tab"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

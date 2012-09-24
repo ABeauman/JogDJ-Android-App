@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    
+    <item android:id="@+id/settings"
+          android:icon="@drawable/settings_button"
+          android:title="@string/settings" 
+          android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/training_plan"
+          android:icon="@drawable/training_icon"
+          android:title="@string/training"
+          android:showAsAction="ifRoom|collapseActionView" />
+    
+    <item android:id="@+id/song_explorer"
+          android:icon="@drawable/songexplorer_icon"
+          android:title="@string/song_explorer"
+          android:showAsAction="ifRoom|collapseActionView" />
+
+</menu>
